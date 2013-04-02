@@ -36,14 +36,13 @@ Updated phone number validation to reflect mobile operators; as per http://en.wi
  </notes>
  <contents>
   <dir name="/">
-   <file name="Validate/NZ.php" role="php">
-    <tasks:replace from="@DATADIR@" to="data_dir" type="pear-config" />
-   </file>
    <dir name="tests">
     <file name="Validate_NZ.phpt" role="test" />
    </dir> <!-- /tests -->
    <dir name="Validate">
-    <file name="NZ.php" role="php" />
+    <file name="NZ.php" role="php">
+     <tasks:replace from="@DATADIR@" to="data_dir" type="pear-config" />
+    </file>
    </dir> <!-- /Validate -->
    <file name="data/NZ_postcodes.txt" role="data" />
    <file name="LICENSE" role="doc" />

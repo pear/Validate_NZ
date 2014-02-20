@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "byron.adams54@gmail.com",
+            "name": "Byron Adams",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate": "./"
+        }
+    },
+    "description": "Validation class for New Zealand",
+    "include-path": [
+        "./"
+    ],
+    "license": "New BSD",
+    "name": "pear/validate_nz",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_NZ",
+        "source": "https://github.com/pear/Validate_NZ"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
